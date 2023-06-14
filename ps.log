@@ -1,0 +1,117 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+muhammad    2573       1  0 20:45 ?        00:00:03 /lib/systemd/systemd --user
+muhammad    2574    2573  0 20:45 ?        00:00:00 (sd-pam)
+muhammad    2592    2573  0 20:45 ?        00:00:00 /usr/bin/pipewire
+muhammad    2593    2573  0 20:45 ?        00:00:06 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+muhammad    2596       1  0 20:45 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+muhammad    2599    2573  0 20:45 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+muhammad    2600    1371  0 20:45 ?        00:00:00 cinnamon-session --session cinnamon
+muhammad    2728       1  0 20:45 ?        00:00:03 /usr/bin/ibus-daemon --daemonize --xim
+muhammad    2731    2573  0 20:45 ?        00:00:00 /usr/libexec/gvfsd
+muhammad    2736    2573  0 20:45 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+muhammad    2745    2728  0 20:45 ?        00:00:00 /usr/libexec/ibus-dconf
+muhammad    2746    2728  0 20:45 ?        00:00:01 /usr/libexec/ibus-ui-gtk3
+muhammad    2749    2728  0 20:45 ?        00:00:01 /usr/libexec/ibus-extension-gtk3
+muhammad    2753       1  0 20:45 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+muhammad    2757    2573  0 20:45 ?        00:00:00 /usr/libexec/ibus-portal
+muhammad    2768    2573  0 20:45 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+muhammad    2774    2768  0 20:45 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+muhammad    2777    2573  0 20:45 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+muhammad    2779    2573  0 20:45 ?        00:00:01 /usr/libexec/xdg-desktop-portal
+muhammad    2791    2573  0 20:45 ?        00:00:00 /usr/libexec/xdg-document-portal
+muhammad    2800    2573  0 20:45 ?        00:00:00 /usr/libexec/xdg-permission-store
+muhammad    2810    2573  0 20:45 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+muhammad    2811    2600  0 20:45 ?        00:00:00 csd-xsettings
+muhammad    2812    2600  0 20:45 ?        00:00:01 csd-housekeeping
+muhammad    2816    2728  0 20:45 ?        00:00:00 /usr/libexec/ibus-engine-simple
+muhammad    2817    2600  0 20:45 ?        00:00:00 csd-keyboard
+muhammad    2820    2600  0 20:45 ?        00:00:00 csd-wacom
+muhammad    2828    2600  0 20:45 ?        00:00:00 csd-screensaver-proxy
+muhammad    2834    2600  0 20:45 ?        00:00:00 csd-print-notifications
+muhammad    2851    2600  0 20:45 ?        00:00:00 csd-a11y-settings
+muhammad    2853    2600  0 20:45 ?        00:00:00 csd-automount
+muhammad    2856    2600  0 20:45 ?        00:00:00 csd-background
+muhammad    2859    2600  0 20:45 ?        00:00:00 csd-clipboard
+muhammad    2862    2600  0 20:45 ?        00:00:00 csd-color
+muhammad    2868    2600  0 20:45 ?        00:00:00 csd-power
+muhammad    2871    2600  0 20:45 ?        00:00:00 csd-media-keys
+muhammad    2879    2573  0 20:45 ?        00:00:00 /usr/libexec/dconf-service
+muhammad    2890    2573  0 20:45 ?        00:00:01 /usr/libexec/gvfs-udisks2-volume-monitor
+muhammad    2897       1  0 20:45 ?        00:00:00 /usr/libexec/csd-printer
+muhammad    2906    2779  0 20:45 ?        00:00:00 sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+muhammad    2907    2906  0 20:45 ?        00:00:00 /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+muhammad    2912    2573  0 20:45 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+muhammad    2919    2573  0 20:45 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+muhammad    2932    2573  0 20:45 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+muhammad    2942    2573  0 20:45 ?        00:00:00 /usr/libexec/goa-daemon
+muhammad    2999    2573  0 20:46 ?        00:00:00 /usr/libexec/goa-identity-service
+muhammad    3001    2573  0 20:46 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+muhammad    3050    2600  0 20:46 ?        00:00:00 cinnamon-launcher
+muhammad    3096    3050  3 20:46 ?        00:01:23 cinnamon --replace
+muhammad    3500    2600  0 20:46 ?        00:00:00 /usr/libexec/xapps/sn-watcher/xapp-sn-watcher
+muhammad    3515    2600  0 20:46 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+muhammad    3519    2600  0 20:46 ?        00:00:00 /usr/bin/python3 /usr/bin/blueman-applet
+muhammad    3520    2600  0 20:46 ?        00:00:01 nemo-desktop
+muhammad    3528    2600  0 20:46 ?        00:00:03 nm-applet
+muhammad    3529    2600  0 20:46 ?        00:00:00 cinnamon-killer-daemon
+muhammad    3533    2600  0 20:46 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+muhammad    3534    2600  0 20:46 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+muhammad    3589    2573  0 20:46 ?        00:00:00 /usr/libexec/evolution-source-registry
+muhammad    3599       1  0 20:46 ?        00:00:02 /usr/bin/python3 /usr/bin/blueman-tray
+muhammad    3601    2573  0 20:46 ?        00:00:00 /usr/lib/bluetooth/obexd
+muhammad    3665    2573  0 20:46 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+muhammad    3720    2573  0 20:46 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+muhammad    3733    2731  0 20:46 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.8 /org/gtk/gvfs/exec_spaw/0
+muhammad    3807    2573  0 20:46 ?        00:00:00 /usr/libexec/gvfsd-metadata
+muhammad    4123       1  0 20:46 ?        00:00:01 mintUpdate
+muhammad    4587    2600  0 20:46 ?        00:00:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+muhammad    5155       1  0 20:46 ?        00:00:11 mintreport-tray
+muhammad    6223    3096  9 20:47 ?        00:03:18 /usr/lib/firefox/firefox
+muhammad    6288    6223  0 20:47 ?        00:00:00 /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20221215175817 -prefsLen 26365 -prefMapSize 227197 -appDir /usr/lib/firefox/browser {cbdf65dc-8c56-4736-892e-5d84fa3d9925} 6223 true socket
+muhammad    6558    6223  0 20:47 ?        00:00:01 /usr/lib/firefox/firefox-bin -contentproc -childID 1 -isForBrowser -prefsLen 26441 -prefMapSize 227197 -jsInitLen 246772 -parentBuildID 20221215175817 -appDir /usr/lib/firefox/browser {db65eee8-f769-4231-9e18-5be2f2cfebcf} 6223 true tab
+muhammad    6841    6223  0 20:47 ?        00:00:00 /usr/lib/firefox/firefox-bin -contentproc -childID 5 -isForBrowser -prefsLen 31868 -prefMapSize 227197 -jsInitLen 246772 -parentBuildID 20221215175817 -appDir /usr/lib/firefox/browser {0b49a173-d5c4-42fd-8c5b-d638b89c63cd} 6223 true tab
+muhammad    6986    6223  2 20:47 ?        00:01:03 /usr/lib/firefox/firefox-bin -contentproc -childID 7 -isForBrowser -prefsLen 31982 -prefMapSize 227197 -jsInitLen 246772 -parentBuildID 20221215175817 -appDir /usr/lib/firefox/browser {f3842a14-d5f3-4687-b94e-9cc0c5b51a3d} 6223 true tab
+muhammad    7103    6223  0 20:47 ?        00:00:09 /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20221215175817 -prefsLen 31982 -prefMapSize 227197 -appDir /usr/lib/firefox/browser {349db613-d24a-43f9-a4e0-8b84ad040c0f} 6223 true rdd
+muhammad    7112    6223  0 20:47 ?        00:00:12 /usr/lib/firefox/firefox-bin -contentproc -parentBuildID 20221215175817 -sandboxingKind 0 -prefsLen 31982 -prefMapSize 227197 -appDir /usr/lib/firefox/browser {334ec11b-fc50-4269-9417-6e48e70a7bf6} 6223 true utility
+muhammad    9891    2573  0 20:50 ?        00:00:03 /usr/libexec/gnome-terminal-server
+muhammad    9920    9891  0 20:50 pts/0    00:00:00 bash
+muhammad    9966    3096  0 20:50 ?        00:00:06 nemo
+muhammad   10068    3096  2 20:50 ?        00:00:44 /opt/google/chrome/chrome
+muhammad   10074   10068  0 20:50 ?        00:00:00 cat
+muhammad   10075   10068  0 20:50 ?        00:00:00 cat
+muhammad   10185       1  0 20:50 ?        00:00:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/muhammad/.config/google-chrome/Crash Reports --metrics-dir=/home/muhammad/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Linux Mint 21.1 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=113.0.5672.126 --initial-client-fd=5 --shared-client-connection
+muhammad   10187       1  0 20:50 ?        00:00:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/muhammad/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Linux Mint 21.1 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=113.0.5672.126 --initial-client-fd=4 --shared-client-connection
+muhammad   10193   10068  0 20:50 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable
+muhammad   10194   10068  0 20:50 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable
+muhammad   10198   10194  0 20:50 ?        00:00:00 /opt/google/chrome/nacl_helper
+muhammad   10201   10194  0 20:50 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable
+muhammad   10222   10193  0 20:50 ?        00:00:14 /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   10227   10068  0 20:50 ?        00:00:17 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   10238   10201  0 20:50 ?        00:00:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   10400   10201  0 20:50 ?        00:00:08 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1686768276904141 --launch-time-ticks=360107634 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   10410   10201  0 20:50 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1686768276904141 --launch-time-ticks=360695696 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   10458   10201  0 20:50 ?        00:00:08 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1686768276904141 --launch-time-ticks=360863514 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   10477   10201  0 20:50 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=8 --time-ticks-at-unix-epoch=-1686768276904141 --launch-time-ticks=361307031 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   10495   10201  0 20:50 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1686768276904141 --launch-time-ticks=361418134 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   10854   10201  2 20:50 ?        00:00:43 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=25 --time-ticks-at-unix-epoch=-1686768276904141 --launch-time-ticks=373529796 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   10991    6223  4 20:51 ?        00:01:26 /usr/lib/firefox/firefox-bin -contentproc -childID 13 -isForBrowser -prefsLen 32115 -prefMapSize 227197 -jsInitLen 246772 -parentBuildID 20221215175817 -appDir /usr/lib/firefox/browser {4a5d9889-6a06-4b7c-a50f-4fed1344434d} 6223 true tab
+muhammad   13196    6223  0 20:57 ?        00:00:01 /usr/lib/firefox/firefox-bin -contentproc -childID 18 -isForBrowser -prefsLen 32115 -prefMapSize 227197 -jsInitLen 246772 -parentBuildID 20221215175817 -appDir /usr/lib/firefox/browser {724095e5-7348-433f-9653-0a14eb8c86bc} 6223 true tab
+muhammad   13287    6223  8 20:57 ?        00:02:17 /usr/lib/firefox/firefox-bin -contentproc -childID 21 -isForBrowser -prefsLen 32115 -prefMapSize 227197 -jsInitLen 246772 -parentBuildID 20221215175817 -appDir /usr/lib/firefox/browser {c37f2e1b-777a-45c3-9a35-2313ad5b1ba1} 6223 true tab
+muhammad   15700    6223  0 20:58 ?        00:00:01 /usr/lib/firefox/firefox-bin -contentproc -childID 25 -isForBrowser -prefsLen 32115 -prefMapSize 227197 -jsInitLen 246772 -parentBuildID 20221215175817 -appDir /usr/lib/firefox/browser {bffc0ac0-2835-4e19-83d0-8124fbb02bc5} 6223 true tab
+muhammad   24003    9891  0 21:04 pts/1    00:00:00 bash
+muhammad   26121   10201  0 21:06 ?        00:00:06 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=102 --time-ticks-at-unix-epoch=-1686768276904141 --launch-time-ticks=1331467729 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   26152   10201  0 21:06 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=105 --time-ticks-at-unix-epoch=-1686768276904141 --launch-time-ticks=1335368629 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   26161   10201  0 21:06 ?        00:00:01 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=106 --time-ticks-at-unix-epoch=-1686768276904141 --launch-time-ticks=1335387315 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   26178   10201  0 21:06 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=107 --time-ticks-at-unix-epoch=-1686768276904141 --launch-time-ticks=1339400664 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   26188   10201  0 21:06 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=108 --time-ticks-at-unix-epoch=-1686768276904141 --launch-time-ticks=1341545239 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   39400    6223  0 21:18 ?        00:00:00 /usr/lib/firefox/firefox-bin -contentproc -childID 41 -isForBrowser -prefsLen 32115 -prefMapSize 227197 -jsInitLen 246772 -parentBuildID 20221215175817 -appDir /usr/lib/firefox/browser {9bf7952c-48be-41eb-a2d3-c0ca79133ef7} 6223 true tab
+muhammad   39665    6223  0 21:18 ?        00:00:00 /usr/lib/firefox/firefox-bin -contentproc -childID 42 -isForBrowser -prefsLen 32115 -prefMapSize 227197 -jsInitLen 246772 -parentBuildID 20221215175817 -appDir /usr/lib/firefox/browser {fb1add4c-21b1-47d0-988b-5faff47569d3} 6223 true tab
+muhammad   40432       1  0 21:19 ?        00:00:00 gnome-screenshot
+muhammad   40451    2731  0 21:19 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.8 /org/gtk/gvfs/exec_spaw/1
+muhammad   40470    2731  0 21:19 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.8 /org/gtk/gvfs/exec_spaw/3
+muhammad   41822    6223  0 21:20 ?        00:00:00 /usr/lib/firefox/firefox-bin -contentproc -childID 43 -isForBrowser -prefsLen 32115 -prefMapSize 227197 -jsInitLen 246772 -parentBuildID 20221215175817 -appDir /usr/lib/firefox/browser {6e1f921b-dac7-455d-b05e-72ee075fd3f2} 6223 true tab
+muhammad   44194   10201  0 21:22 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=10185 --enable-crash-reporter=4616b1ac-9551-49f8-9989-47e0625676ab, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=184 --time-ticks-at-unix-epoch=-1686768276904141 --launch-time-ticks=2280028828 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,9277998271093006538,9072434835498019239,262144
+muhammad   44904   44882  0 21:23 ?        00:00:00 /bin/bash /usr/local/bin/docker-entrypoint.sh node current/index.js
+muhammad   44976   44904  8 21:23 ?        00:00:00 node /var/lib/ghost/current/node_modules/knex-migrator/bin/knex-migrator-migrate --init --mgpath /var/lib/ghost/current
+muhammad   45000   24003  0 21:23 pts/1    00:00:00 /bin/bash ./bash.sh
+muhammad   45001   45000  0 21:23 pts/1    00:00:00 ps -f -u muhammad

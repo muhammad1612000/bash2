@@ -1,0 +1,7 @@
+Filesystem Use% Mounted on    
+tmpfs        1% /run          
+/dev/sdb5   87% /             
+tmpfs        2% /dev/shm      
+tmpfs        1% /run/lock     
+/dev/sdb1    2% /boot/efi     
+tmpfs        1% /run/user/1000
